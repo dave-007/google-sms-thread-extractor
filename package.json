@@ -1,0 +1,18 @@
+{
+  "name": "google-sms-thread-extractor",
+  "version": "0.1.0",
+  "description": "Extract SMS conversations and attachments from Google Messages web using Claude browser automation",
+  "type": "module",
+  "scripts": {
+    "extract": "tsx src/extract.ts",
+    "test": "vitest"
+  },
+  "keywords": ["google-messages", "sms", "extraction", "browser-automation"],
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
